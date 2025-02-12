@@ -22,8 +22,7 @@ const Footer = () => {
           </div>
            <div className='flex space-x-6 mt-9 justify-center items-center lg:ml-96 text-white'>
             <FaFacebookSquare size={30}  />
-            {/* <IoLogoTwitter size={30}  /> */}
-            <FaTwitter />
+            <FaTwitter  size={30}/>
             <FaInstagramSquare size={30} />
            
           </div> 
