@@ -1,7 +1,8 @@
 import React from 'react'
- import { FaFacebookSquare } from 'react-icons/fa';
+ import { FaFacebookSquare, FaTwitter } from 'react-icons/fa';
  import { FaInstagramSquare } from 'react-icons/fa';  
-import { IoLogoTwitter } from 'react-icons/io';
+
+
 const Footer = () => {
   return (
     <>
@@ -21,8 +22,10 @@ const Footer = () => {
           </div>
            <div className='flex space-x-6 mt-9 justify-center items-center lg:ml-96 text-white'>
             <FaFacebookSquare size={30}  />
-            <IoLogoTwitter size={30}  />
+            {/* <IoLogoTwitter size={30}  /> */}
+            <FaTwitter />
             <FaInstagramSquare size={30} />
+           
           </div> 
 
         </div>
