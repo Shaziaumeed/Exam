@@ -16,7 +16,7 @@
 //             <h3>Contact</h3>
 //           </div>
 //           <div className='text-gray-400 mt-9 '>
-//             <p>Audiophile is an all in one stop to fulfill your {'audio needs. We,re'} a small team of music lovers and sound specialists who are devoted to helping get the most out of personal and visit our demo {'facility - were open 7 days a week.'}</p>
+//             <p>{'Audiophile is an all in one stop to fulfill your audio needs. We,re a small team of music lovers and sound specialists who are devoted to helping get the most out of personal and visit our demo facility - were open 7 days a week.'}</p>
 //             <p className='mt-10'>{'Copyright 2021.'} All Rights Reserved</p>
 //           </div>
 //            <div className='flex space-x-6 mt-9 justify-center items-center lg:ml-96 text-white'>
@@ -32,9 +32,10 @@
 // export default Footer;
 
 
-
 import React from 'react';
-import { FaFacebookSquare, FaInstagramSquare, FaTwitter } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';  
+import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -51,15 +52,15 @@ const Footer = () => {
           </div>
           <div className='text-gray-400 mt-9'>
             <p>
-             "Audiophile is an all-in-one stop to fulfill your audio needs. We,re a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio and visit our demo facility - we,re open 7 days a week."
+              Audiophile is an all-in-one stop to fulfill your audio needs. We&rsquo;re a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio and visit our demo facility &ndash; we&rsquo;re open 7 days a week.
             </p>
-            <p className='mt-10'>"Copyright 2021. All Rights Reserved"</p>
+            <p className='mt-10'>&copy; 2021. All Rights Reserved.</p>
           </div>
           <div className='flex space-x-6 mt-9 justify-center items-center lg:ml-96 text-white'>
             <FaFacebookSquare size={30} />
             <FaTwitter size={30} />
             <FaInstagramSquare size={30} />
-          </div>
+          </div> 
         </div>
       </div>
     </>
@@ -67,6 +68,4 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
 
