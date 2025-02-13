@@ -2,7 +2,7 @@ import Footer from '@/Component/Layout/Footer';
 import Navbar from '@/Component/Layout/Navbar';
 import Image from 'next/image';
 
-const AboutUs = () => {
+const About = () => {
   return (
     <>
     <Navbar/>
@@ -38,4 +38,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

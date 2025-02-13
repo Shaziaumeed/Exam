@@ -1,7 +1,7 @@
 import React from 'react'
- import { FaFacebookSquare, FaTwitter } from 'react-icons/fa';
+ import { FaFacebookSquare } from 'react-icons/fa';
  import { FaInstagramSquare } from 'react-icons/fa';  
-
+ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
            <div className='flex space-x-6 mt-9 justify-center items-center lg:ml-96 text-white'>
             <FaFacebookSquare size={30}  />
-            <FaTwitter  size={30}/>
+            <FaTwitter  size={30}  />
             <FaInstagramSquare size={30} />
            
           </div> 
